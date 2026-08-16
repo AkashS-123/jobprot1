@@ -1,0 +1,312 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Ava Patel",
+      "email": "ava.candidate@example.com",
+      "password": "password123",
+      "role": "candidate",
+      "headline": "Frontend Engineer",
+      "location": "Austin, TX",
+      "phone": "512-555-0142",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Jest"
+      ],
+      "experienceYears": 4,
+      "bio": "Frontend engineer focused on accessible, performant web apps.",
+      "resumeUrl": "https://example.com/resumes/ava-patel.pdf"
+    },
+    {
+      "id": "u2",
+      "name": "Diego Ramirez",
+      "email": "diego.dev@example.com",
+      "password": "password123",
+      "role": "candidate",
+      "headline": "Backend Engineer",
+      "location": "Remote",
+      "phone": "212-555-0199",
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
+      "experienceYears": 6,
+      "bio": "Backend engineer who enjoys building reliable APIs and data pipelines.",
+      "resumeUrl": "https://example.com/resumes/diego-ramirez.pdf"
+    },
+    {
+      "id": "u3",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "password": "password123",
+      "role": "candidate",
+      "headline": "Product Designer",
+      "location": "San Francisco, CA",
+      "phone": "415-555-0173",
+      "skills": [
+        "Figma",
+        "UX Research",
+        "Design Systems"
+      ],
+      "experienceYears": 3,
+      "bio": "Product designer passionate about inclusive, human-centered design.",
+      "resumeUrl": "https://example.com/resumes/priya-nair.pdf"
+    },
+    {
+      "id": "hr1",
+      "name": "Rhea Thompson",
+      "email": "rhea.hr@example.com",
+      "password": "password123",
+      "role": "hr",
+      "company": "Northwind Labs",
+      "companyTitle": "Talent Acquisition Lead"
+    },
+    {
+      "id": "hr2",
+      "name": "Marcus Lee",
+      "email": "marcus.hr@example.com",
+      "password": "password123",
+      "role": "hr",
+      "company": "BrightPath Analytics",
+      "companyTitle": "HR Manager"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j1",
+      "title": "Senior Frontend Engineer",
+      "company": "Northwind Labs",
+      "location": "Austin, TX",
+      "type": "Full-time",
+      "salaryMin": 110000,
+      "salaryMax": 145000,
+      "description": "Own the frontend architecture for our customer-facing dashboard, working closely with design and backend teams to ship fast, accessible features.",
+      "responsibilities": [
+        "Build and maintain React components used across the product",
+        "Collaborate with designers to implement pixel-accurate, accessible UI",
+        "Improve performance and test coverage of the frontend codebase"
+      ],
+      "requirements": [
+        "4+ years of experience with React and TypeScript",
+        "Strong understanding of web accessibility standards",
+        "Experience with component testing (Jest, Testing Library)"
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Accessibility"
+      ],
+      "status": "open",
+      "postedBy": "hr1",
+      "postedAt": "2026-07-20T09:00:00.000Z"
+    },
+    {
+      "id": "j2",
+      "title": "Backend Engineer, Platform",
+      "company": "Northwind Labs",
+      "location": "Remote",
+      "type": "Full-time",
+      "salaryMin": 120000,
+      "salaryMax": 155000,
+      "description": "Design and scale the services that power our core platform, with a focus on reliability and developer experience.",
+      "responsibilities": [
+        "Design and implement REST APIs used by internal and external teams",
+        "Own uptime and performance of core platform services",
+        "Mentor junior engineers on backend best practices"
+      ],
+      "requirements": [
+        "5+ years building backend services in Node.js or similar",
+        "Experience with relational databases at scale",
+        "Comfort working in a remote, async-first team"
+      ],
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker"
+      ],
+      "status": "open",
+      "postedBy": "hr1",
+      "postedAt": "2026-07-18T09:00:00.000Z"
+    },
+    {
+      "id": "j3",
+      "title": "Product Designer",
+      "company": "Northwind Labs",
+      "location": "Austin, TX",
+      "type": "Full-time",
+      "salaryMin": 95000,
+      "salaryMax": 125000,
+      "description": "Shape the end-to-end experience of our platform, from early concepts to polished, shipped features.",
+      "responsibilities": [
+        "Lead design for key product areas from research through delivery",
+        "Maintain and evolve our design system",
+        "Partner with PM and engineering throughout the product lifecycle"
+      ],
+      "requirements": [
+        "3+ years of product design experience",
+        "Strong portfolio demonstrating end-to-end design process",
+        "Proficiency in Figma"
+      ],
+      "skills": [
+        "Figma",
+        "Design Systems",
+        "UX Research"
+      ],
+      "status": "open",
+      "postedBy": "hr1",
+      "postedAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "id": "j4",
+      "title": "Data Analyst Intern",
+      "company": "BrightPath Analytics",
+      "location": "Remote",
+      "type": "Internship",
+      "salaryMin": 40000,
+      "salaryMax": 55000,
+      "description": "Support the analytics team with data cleaning, dashboards, and ad-hoc reporting for our clients.",
+      "responsibilities": [
+        "Build and maintain dashboards in our BI tool",
+        "Clean and validate datasets for client reporting",
+        "Assist analysts with ad-hoc data requests"
+      ],
+      "requirements": [
+        "Currently pursuing a degree in a quantitative field",
+        "Familiarity with SQL and spreadsheets",
+        "Strong attention to detail"
+      ],
+      "skills": [
+        "SQL",
+        "Excel",
+        "Data Visualization"
+      ],
+      "status": "open",
+      "postedBy": "hr2",
+      "postedAt": "2026-08-05T09:00:00.000Z"
+    },
+    {
+      "id": "j5",
+      "title": "DevOps Engineer",
+      "company": "BrightPath Analytics",
+      "location": "New York, NY",
+      "type": "Contract",
+      "salaryMin": 100000,
+      "salaryMax": 130000,
+      "description": "Help us modernize our infrastructure and CI/CD pipelines ahead of a major platform migration.",
+      "responsibilities": [
+        "Migrate legacy infrastructure to containerized services",
+        "Build and maintain CI/CD pipelines",
+        "Set up monitoring and alerting for production systems"
+      ],
+      "requirements": [
+        "Experience with Docker and Kubernetes",
+        "Familiarity with CI/CD tooling (GitHub Actions, CircleCI, etc.)",
+        "Available for a 6-month contract"
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS"
+      ],
+      "status": "closed",
+      "postedBy": "hr2",
+      "postedAt": "2026-06-15T09:00:00.000Z"
+    },
+    {
+      "id": "j6",
+      "title": "Marketing Coordinator",
+      "company": "BrightPath Analytics",
+      "location": "Remote",
+      "type": "Part-time",
+      "salaryMin": 45000,
+      "salaryMax": 60000,
+      "description": "Support our marketing team with content scheduling, campaign tracking, and social media coordination.",
+      "responsibilities": [
+        "Schedule and publish content across social channels",
+        "Track campaign performance and compile reports",
+        "Coordinate with designers and writers on content deadlines"
+      ],
+      "requirements": [
+        "1+ years in a marketing or coordination role",
+        "Comfort with social media scheduling tools",
+        "Excellent written communication"
+      ],
+      "skills": [
+        "Content Marketing",
+        "Social Media",
+        "Analytics"
+      ],
+      "status": "open",
+      "postedBy": "hr2",
+      "postedAt": "2026-08-10T09:00:00.000Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a1",
+      "jobId": "j1",
+      "candidateId": "u1",
+      "status": "shortlisted",
+      "coverLetter": "I've spent the last four years building accessible React interfaces and would love to bring that focus to Northwind Labs.",
+      "appliedAt": "2026-07-22T14:30:00.000Z",
+      "updatedAt": "2026-07-25T10:00:00.000Z"
+    },
+    {
+      "id": "a2",
+      "jobId": "j3",
+      "candidateId": "u1",
+      "status": "applied",
+      "coverLetter": "While I'm primarily an engineer, I've collaborated closely with design teams and am excited about this role's cross-functional nature.",
+      "appliedAt": "2026-08-03T11:00:00.000Z",
+      "updatedAt": "2026-08-03T11:00:00.000Z"
+    },
+    {
+      "id": "a3",
+      "jobId": "j2",
+      "candidateId": "u2",
+      "status": "interview",
+      "coverLetter": "I've built and scaled backend services handling millions of requests a day and would love to bring that experience to your platform team.",
+      "appliedAt": "2026-07-19T09:15:00.000Z",
+      "updatedAt": "2026-07-28T16:00:00.000Z"
+    },
+    {
+      "id": "a4",
+      "jobId": "j3",
+      "candidateId": "u3",
+      "status": "offered",
+      "coverLetter": "Design systems work is where I do my best thinking, and I'd love to help evolve yours as the product grows.",
+      "appliedAt": "2026-08-02T13:00:00.000Z",
+      "updatedAt": "2026-08-09T09:00:00.000Z"
+    },
+    {
+      "id": "a5",
+      "jobId": "j6",
+      "candidateId": "u3",
+      "status": "rejected",
+      "coverLetter": "I'm interested in exploring marketing-adjacent work alongside my design background.",
+      "appliedAt": "2026-08-11T08:00:00.000Z",
+      "updatedAt": "2026-08-12T10:00:00.000Z"
+    }
+  ],
+  "savedJobs": [
+    {
+      "id": "s1",
+      "candidateId": "u1",
+      "jobId": "j2",
+      "savedAt": "2026-08-01T10:00:00.000Z"
+    },
+    {
+      "id": "s2",
+      "candidateId": "u2",
+      "jobId": "j5",
+      "savedAt": "2026-07-30T10:00:00.000Z"
+    }
+  ]
+}
