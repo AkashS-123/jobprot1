@@ -38,7 +38,7 @@ const Login: React.FC = () => {
   return (
     <div className="mx-auto flex min-h-[70vh] max-w-md flex-col justify-center px-4 py-12">
       <h1 className="font-display text-2xl font-semibold text-ink">Welcome back</h1>
-      <p className="mt-1 text-sm text-ink/60">Log in to your Fieldnote account.</p>
+      <p className="mt-1 text-sm text-ink/60">Log in to your JobBoard account.</p>
 
       <form onSubmit={handleSubmit} className="mt-6 space-y-4">
         <div>

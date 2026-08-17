@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-8">
           <NavLink to="/" className="font-display text-xl font-semibold text-brand-700">
-            Fieldnote
+            JobBoard
           </NavLink>
           {user?.role === 'candidate' && (
             <nav className="hidden gap-1 md:flex">

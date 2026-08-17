@@ -9,7 +9,12 @@
       "headline": "Frontend Engineer",
       "location": "Austin, TX",
       "phone": "512-555-0142",
-      "skills": ["React", "TypeScript", "Tailwind CSS", "Jest"],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Jest"
+      ],
       "experienceYears": 4,
       "bio": "Frontend engineer focused on accessible, performant web apps.",
       "resumeUrl": "https://example.com/resumes/ava-patel.pdf"
@@ -23,7 +28,12 @@
       "headline": "Backend Engineer",
       "location": "Remote",
       "phone": "212-555-0199",
-      "skills": ["Node.js", "PostgreSQL", "Docker", "AWS"],
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
       "experienceYears": 6,
       "bio": "Backend engineer who enjoys building reliable APIs and data pipelines.",
       "resumeUrl": "https://example.com/resumes/diego-ramirez.pdf"
@@ -37,7 +47,11 @@
       "headline": "Product Designer",
       "location": "San Francisco, CA",
       "phone": "415-555-0173",
-      "skills": ["Figma", "UX Research", "Design Systems"],
+      "skills": [
+        "Figma",
+        "UX Research",
+        "Design Systems"
+      ],
       "experienceYears": 3,
       "bio": "Product designer passionate about inclusive, human-centered design.",
       "resumeUrl": "https://example.com/resumes/priya-nair.pdf"
@@ -59,6 +73,14 @@
       "role": "hr",
       "company": "BrightPath Analytics",
       "companyTitle": "HR Manager"
+    },
+    {
+      "name": "akash",
+      "email": "sampathakash1999@gmail.com",
+      "password": "1234567890",
+      "role": "candidate",
+      "skills": [],
+      "id": "SNNX0Cu"
     }
   ],
   "jobs": [
@@ -81,7 +103,12 @@
         "Strong understanding of web accessibility standards",
         "Experience with component testing (Jest, Testing Library)"
       ],
-      "skills": ["React", "TypeScript", "Tailwind CSS", "Accessibility"],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Accessibility"
+      ],
       "status": "open",
       "postedBy": "hr1",
       "postedAt": "2026-07-20T09:00:00.000Z"
@@ -105,7 +132,12 @@
         "Experience with relational databases at scale",
         "Comfort working in a remote, async-first team"
       ],
-      "skills": ["Node.js", "PostgreSQL", "AWS", "Docker"],
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker"
+      ],
       "status": "open",
       "postedBy": "hr1",
       "postedAt": "2026-07-18T09:00:00.000Z"
@@ -129,7 +161,11 @@
         "Strong portfolio demonstrating end-to-end design process",
         "Proficiency in Figma"
       ],
-      "skills": ["Figma", "Design Systems", "UX Research"],
+      "skills": [
+        "Figma",
+        "Design Systems",
+        "UX Research"
+      ],
       "status": "open",
       "postedBy": "hr1",
       "postedAt": "2026-08-01T09:00:00.000Z"
@@ -153,7 +189,11 @@
         "Familiarity with SQL and spreadsheets",
         "Strong attention to detail"
       ],
-      "skills": ["SQL", "Excel", "Data Visualization"],
+      "skills": [
+        "SQL",
+        "Excel",
+        "Data Visualization"
+      ],
       "status": "open",
       "postedBy": "hr2",
       "postedAt": "2026-08-05T09:00:00.000Z"
@@ -177,7 +217,12 @@
         "Familiarity with CI/CD tooling (GitHub Actions, CircleCI, etc.)",
         "Available for a 6-month contract"
       ],
-      "skills": ["Docker", "Kubernetes", "CI/CD", "AWS"],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS"
+      ],
       "status": "closed",
       "postedBy": "hr2",
       "postedAt": "2026-06-15T09:00:00.000Z"
@@ -201,7 +246,11 @@
         "Comfort with social media scheduling tools",
         "Excellent written communication"
       ],
-      "skills": ["Content Marketing", "Social Media", "Analytics"],
+      "skills": [
+        "Content Marketing",
+        "Social Media",
+        "Analytics"
+      ],
       "status": "open",
       "postedBy": "hr2",
       "postedAt": "2026-08-10T09:00:00.000Z"
@@ -255,7 +304,17 @@
     }
   ],
   "savedJobs": [
-    { "id": "s1", "candidateId": "u1", "jobId": "j2", "savedAt": "2026-08-01T10:00:00.000Z" },
-    { "id": "s2", "candidateId": "u2", "jobId": "j5", "savedAt": "2026-07-30T10:00:00.000Z" }
+    {
+      "id": "s1",
+      "candidateId": "u1",
+      "jobId": "j2",
+      "savedAt": "2026-08-01T10:00:00.000Z"
+    },
+    {
+      "id": "s2",
+      "candidateId": "u2",
+      "jobId": "j5",
+      "savedAt": "2026-07-30T10:00:00.000Z"
+    }
   ]
 }
