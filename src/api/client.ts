@@ -8,3 +8,4 @@ const baseURL = import.meta.env.VITE_API_URL || 'https://job-portal-api-si88.onr
 export const api = axios.create({ baseURL });
 
 export default api;
+//hgcuyguyiuguikki;
